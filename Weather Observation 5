@@ -1,0 +1,13 @@
+select 
+top 1 City
+,LEN(City) LCity
+from STATION 
+order by 
+LCity ASC, City ASC
+
+
+select 
+top 1 CITY
+,LEN(city) LCity 
+from station 
+order by LCity desc, City ASC
