@@ -1,0 +1,3 @@
+SELECT distinct city
+FROM station
+WHERE city LIKE '[aeiou]%' and city LIKE '%[aeiou]'
